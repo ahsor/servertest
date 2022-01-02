@@ -1,0 +1,33 @@
+{
+  
+  "name": "login",
+  "description": "npm 사이트에서 검색이 됨",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    // 실행파일이 담기게 됨 
+    "login": "bin/www.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    // ^ : 3. 대 버전만 설치하겠다. 
+    // ~ : 3.3. 이하 변경만 허용 
+    // x : 3.3.x  어떠한 버전이든 상관 없음
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  // test도구, 바벨, 웹펙 들을 나열할 수 있음 
+  "scripts": {
+    "start":"node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":["javascript","login","home"],
+  "author": "kims",
+  "repository":{
+    "type":"git",
+    "url":"..."
+  }
+  "license": "ISC"
+  // ISC 기본설정 , 누구든 사용할 수 있는 open source
+  // 보통 MIT : 가장 널리 사용, 상업적이용도 가능, 저작권 설정 필요도 없고 
+}
