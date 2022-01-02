@@ -7,19 +7,23 @@
     "login": "bin/www.js"
   },
   "dependencies": {
+    "body-parser": "^1.19.1",
     "ejs": "^3.1.6",
     "express": "^4.17.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "start":"node ./bin/www.js",
+    "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords":["javascript","login","home"],
+  "keywords": [
+    "javascript",
+    "login",
+    "home"
+  ],
   "author": "kims",
-  "repository":{
-    "type":"git",
-    "url":"..."
+  "repository": {
+    "type": "git",
+    "url": "..."
   },
   "license": "ISC"
 }

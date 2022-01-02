@@ -5,8 +5,8 @@ const router = express.Router();
 const ctrl = require('./home.ctrl');
 
 // ctrl로 모듈화 
-router.get('/', ctrl.world);
-router.get('/login', ctrl.login);
-router.post('/login', ctrl.login);
+router.get('/', ctrl.output.world);
+router.get('/login', ctrl.output.login);
+router.post('/login', ctrl.process.login);
 
 module.exports = router;
